@@ -12,9 +12,10 @@ public class IA : MonoBehaviour
     public float viewDistance = 10f;
     public bool isAware = false;
     
-    private NavMeshAgent agent;
+    public NavMeshAgent agent;
     public Renderer renderer;
     private EnemyPatrol ep;
+    public LayerMask layer;
     public Light spot;
     void Start()
     {
@@ -54,7 +55,7 @@ public class IA : MonoBehaviour
                 {
                     Debug.DrawLine(transform.position, cabeca.transform.position, Color.red);
                     RaycastHit hit;
-                    if (Physics.Linecast(transform.position, cabeca.transform.position, out hit, -1))
+                    if (Physics.Linecast(transform.position, cabeca.transform.position, out hit, layer.value))
                     {
 
                         Debug.Log(hit.transform.tag);
@@ -77,7 +78,7 @@ public class IA : MonoBehaviour
                 {
                     Debug.DrawLine(transform.position, cabecaAbaixada.transform.position, Color.red);
                     RaycastHit hit;
-                    if (Physics.Linecast(transform.position, cabecaAbaixada.transform.position, out hit, -1))
+                    if (Physics.Linecast(transform.position, cabecaAbaixada.transform.position, out hit, layer.value))
                     {
 
                         Debug.Log(hit.transform.tag);
@@ -98,6 +99,6 @@ public class IA : MonoBehaviour
     {
         isAware = true;
     }
-
    
+
 }

@@ -37,7 +37,13 @@ public class ControlePersonagem : MonoBehaviour
     private bool inv = false;
 
     public GameObject objectInteract = null;
+    public GameObject GrassSound;
     public IA ia;
+
+
+    //SOM
+    //public GameObject jump;
+
 
     #region Controle do ar
     [Range(0, 1)]
@@ -60,6 +66,7 @@ public class ControlePersonagem : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
 
@@ -68,6 +75,8 @@ public class ControlePersonagem : MonoBehaviour
         characterMoveSpeed = 0;
 
         characterState = CharacterState.idle;
+
+        
     }
 
     void CameraFoward()
@@ -98,10 +107,12 @@ public class ControlePersonagem : MonoBehaviour
         bool pushing = Input.GetKey(KeyCode.E);
 
         bool action = false;
+        
 
         if (moveInput != Vector3.zero)
         {
             characterState = CharacterState.walking;
+            
         }
 
         if (running)
@@ -109,7 +120,7 @@ public class ControlePersonagem : MonoBehaviour
             characterState = CharacterState.running;
         }
 
-        if (crounching)
+        if (crounching && moveInput!=Vector3.zero)
         {
             characterState = CharacterState.crounching;
         }
@@ -117,12 +128,16 @@ public class ControlePersonagem : MonoBehaviour
         if (moveInput == Vector3.zero && !crounching)
         {
             characterState = CharacterState.idle;
+            
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && !crounching)
         {
             Jump();
+            Invoke("JumpSound", 0.8f);
         }
+       
         /*
         if (objectInteract != null)
         {
@@ -144,6 +159,10 @@ public class ControlePersonagem : MonoBehaviour
         UnHide();
     }
 
+    void JumpSound()
+    {
+        //jump.SetActive(true);
+    }
     void MoveCharacter(Vector3 moveInput)
     {
         if (moveInput != Vector3.zero)
@@ -282,6 +301,7 @@ public class ControlePersonagem : MonoBehaviour
         {
             float jumpVelocity = Mathf.Sqrt(-2 * gravity * jumpHeight);
             velocityY = jumpVelocity;
+           
         }
     }
 

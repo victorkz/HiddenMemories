@@ -16,6 +16,7 @@ public class IALook : MonoBehaviour
     public float viewDistance = 10f;
     public float fov;
     public Light spot;
+    public LayerMask layer;
 
     void Update()
     {
@@ -55,7 +56,7 @@ public class IALook : MonoBehaviour
                 {
                     Debug.DrawLine(transform.position, cabeca.transform.position, Color.red);
                     RaycastHit hit;
-                    if (Physics.Linecast(transform.position, cabeca.transform.position, out hit, -1))
+                    if (Physics.Linecast(transform.position, cabeca.transform.position, out hit, layer.value))
                     {
 
                         Debug.Log(hit.transform.tag);
@@ -82,7 +83,7 @@ public class IALook : MonoBehaviour
                 {
                     Debug.DrawLine(transform.position, cabecaAbaixada.transform.position, Color.red);
                     RaycastHit hit;
-                    if (Physics.Linecast(transform.position, cabecaAbaixada.transform.position, out hit, -1))
+                    if (Physics.Linecast(transform.position, cabecaAbaixada.transform.position, out hit, layer.value))
                     {
                         Debug.Log(hit.transform.tag);
 

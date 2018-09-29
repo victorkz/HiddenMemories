@@ -4,12 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Box
+  - Limit
+  - Save
   - Enemy
-  - Inv
-  - ChangeLevel
-  - SoundSphere
-  - Obstacle
-  - Safe
+  - Concrete_Terrain
+  - Dirty_Terrain
+  - Grass_Terrain
+  - Wood_Terrain
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Floor
-  - Obstacle
+  - Trigger
+  - 
   - 
   - 
   - 

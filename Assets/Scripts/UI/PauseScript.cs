@@ -9,6 +9,7 @@ public class PauseScript : MonoBehaviour
     public  bool GameIsPaused = false;
    
     public GameObject pauseMenuUI;
+    public GameObject soundMenuUI;
     
 
 
@@ -55,6 +56,18 @@ public class PauseScript : MonoBehaviour
     {
         GamePaused();
         SceneManager.LoadScene("Menu");
+    }
+    public void Settings()
+    {
+        GamePaused();
+        pauseMenuUI.SetActive(false);
+        soundMenuUI.SetActive(true);
+
+    }
+    public void Back()
+    {
+        pauseMenuUI.SetActive(true);
+        soundMenuUI.SetActive(false);
     }
     public void Quit()
     {

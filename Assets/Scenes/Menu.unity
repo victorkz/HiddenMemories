@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.0040187035, g: 0.00021935721, b: 0.00000005326676,
+    a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1224,7 +1225,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1327,6 +1328,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1050192924605216, guid: 2fa7bca1ac935604fa9583f670e05d9a,
     type: 2}
   m_PrefabInternal: {fileID: 1207631405}
+--- !u!114 &1170700619 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114008556205745710, guid: cfb3408799f50ce4586defb1775173f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1540865204}
+  m_Script: {fileID: 11500000, guid: 93dbfef381d52c44e86045c0e0493070, type: 3}
 --- !u!1001 &1207631405
 Prefab:
   m_ObjectHideFlags: 0
@@ -1724,6 +1731,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -425.738, y: -30.000002, z: 0}
+--- !u!1001 &1540865204
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 298.66974
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -34.36723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -411.30194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982274682845770, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cfb3408799f50ce4586defb1775173f2, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1622572940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,6 +1903,57 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1713189269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1713189271}
+  - component: {fileID: 1713189270}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1713189270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1713189269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Environment/Water/Rain_Out
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!4 &1713189271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1713189269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 298.66974, y: -34.36723, z: -411.30194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1738866063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,10 +2033,21 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1170700619}
+        m_MethodName: SFXVolumeLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1848535592

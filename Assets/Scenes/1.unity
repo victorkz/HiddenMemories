@@ -897,6 +897,10 @@ Prefab:
       propertyPath: endPos
       value: 
       objectReference: {fileID: 1749691616}
+    - target: {fileID: 1187699505365068, guid: 49c6d2aa7a4286c43ab0823bdc089cf6, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49c6d2aa7a4286c43ab0823bdc089cf6, type: 2}
   m_IsPrefabParent: 0
@@ -1854,6 +1858,10 @@ Prefab:
       propertyPath: targetPlayer
       value: 
       objectReference: {fileID: 768986100}
+    - target: {fileID: 1001712328638872, guid: b0b63f1db1ca442418a70c542dad1fcc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b0b63f1db1ca442418a70c542dad1fcc, type: 2}
   m_IsPrefabParent: 0
@@ -2190,7 +2198,7 @@ Prefab:
       objectReference: {fileID: 81035010}
     - target: {fileID: 1061132754275336, guid: 98a9c26ac7b080f4381dadc5db69c23e, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98a9c26ac7b080f4381dadc5db69c23e, type: 2}
