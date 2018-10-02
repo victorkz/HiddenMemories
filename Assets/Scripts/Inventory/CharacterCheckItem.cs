@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-https://www.youtube.com/watch?v=9tePzyL6dgc&list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&index=3
+//https://www.youtube.com/watch?v=9tePzyL6dgc&list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&index=3
 
 public class CharacterCheckItem : MonoBehaviour
 {
-
     RaycastHit hit;
 
     CharacterController characterController;
@@ -29,32 +28,52 @@ public class CharacterCheckItem : MonoBehaviour
         Ray ray;
         float rayDistance = 4;
 
-        ray = new Ray(this.transform.position + new Vector3(0f, characterController.center.y, 0f), transform.forward);
+        ray = new Ray(this.transform.position + new Vector3(0f, transform.position.y / 2, 0f), transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * rayDistance, Color.red);
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (Physics.Raycast(ray, out hit))
             {
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 if (interactable != null)
                 {
-                    Debug.DrawRay(ray.origin, ray.direction * rayDistance, Color.red);
+                    Debug.DrawRay(ray.origin, ray.direction * rayDistance, Color.green);
                     SetFocus(interactable);
                 }
 
             }
+        }
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            RemoveFocus();
         }
 
     }
 
     void SetFocus(Interactable newFocus)
     {
-        focus = newFocus
+        if (newFocus != focus)
+        {
+            if (focus != null)
+            {
+                focus.onDefocused();
+            }
+            focus = newFocus;
+        }
+
+        print("Pegou objeto");
+        newFocus.onFocused(this.transform);
+
     }
 
     void RemoveFocus()
     {
+        print("Soltou");
+        if (focus != null)
+        {
+            focus.onDefocused();
+        }
         focus = null;
     }
 }

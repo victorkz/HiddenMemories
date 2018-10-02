@@ -4,7 +4,7 @@ using UnityEngine;
 //https://www.youtube.com/watch?v=qITXjT9s9do
 
 public class ControlePersonagemTeste : MonoBehaviour
-{
+{/*
     #region Campo
     public enum CharacterState
     {
