@@ -85,17 +85,17 @@ MonoBehaviour:
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
-      lowPercent: 65
-      highPercent: 95
-      minLuminance: 0.03
-      maxLuminance: 2
-      keyValue: 0.25
-      dynamicKeyValue: 1
+      lowPercent: 1
+      highPercent: 30.99997
+      minLuminance: -20
+      maxLuminance: 0
+      keyValue: 0.3
+      dynamicKeyValue: 0
       adaptationType: 0
-      speedUp: 2
+      speedUp: 5
       speedDown: 1
-      logMin: -8
-      logMax: 4
+      logMin: -16
+      logMax: 1
   bloom:
     m_Enabled: 0
     m_Settings:
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.1
+      intensity: 0
   grain:
     m_Enabled: 0
     m_Settings:
