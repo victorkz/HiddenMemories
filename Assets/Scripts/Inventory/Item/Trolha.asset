@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e1cdd294743484c825f75a3f462b08, type: 3}
   m_Name: Trolha
   m_EditorClassIdentifier: 
-  ItemName: 
+  ItemName: Trolha
   Icon: {fileID: 0}
   combineItem: {fileID: 0}
   combineGameObject: {fileID: 0}
