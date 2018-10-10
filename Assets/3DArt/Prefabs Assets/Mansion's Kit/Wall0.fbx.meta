@@ -5,10 +5,8 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Wall0
     100002: //RootNode
-    100004: Wall0_low
     400000: Wall0
     400002: //RootNode
-    400004: Wall0_low
     2100000: Tile_Mat
     2300000: Wall0
     3300000: Wall0
@@ -18,7 +16,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tile_Mat
-    second: {fileID: 2100000, guid: 11e48bbe8b68fd94f9027ac0b52b74e0, type: 2}
+    second: {fileID: 2100000, guid: 1c73c900d84c042439c371a85563ab22, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
