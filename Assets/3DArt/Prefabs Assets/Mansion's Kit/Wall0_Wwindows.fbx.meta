@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d5e47ab1ef9e66145b1777186106233a
+guid: 8f0acce14570af04aa81beab88cbeefc
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -27,12 +27,18 @@ ModelImporter:
     4300002: janela2_low
     4300004: JanelaVidro1_low
     4300006: JanelaVidro2_low
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Glass_Mat
     second: {fileID: 2100000, guid: 27852b5ca9078784a94bb87cd3c49928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile_Mat
+    second: {fileID: 2100000, guid: 1c73c900d84c042439c371a85563ab22, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -71,7 +77,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -84,8 +90,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 180
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
