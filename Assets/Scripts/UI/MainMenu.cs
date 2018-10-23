@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     //public Animator animator;
     public GameObject FadeOut;
-   
+    
     
 
     #region Pause
@@ -33,11 +33,11 @@ public class MainMenu : MonoBehaviour
     #endregion
 
 
-    public void Start()
+    void Start()
     {
-       
-        ps = GetComponent<PauseScript>();
         
+        ps = GetComponent<PauseScript>();
+
         playClick = false;
         settingsClick = false;
         backClick = false;
@@ -51,19 +51,19 @@ public class MainMenu : MonoBehaviour
         if (settingsClick == true)
         {
             DisableMenu();
-            
+
             Invoke("EnableSettings", 0.5f);
             Settings();
         }
 
         if (backClick == true)
         {
-            
+
             Back();
             DisableSettings();
-            
+
             Invoke("EnableMenu", 0.5f);
-            
+
 
         }
 
@@ -78,10 +78,10 @@ public class MainMenu : MonoBehaviour
         playClick = true;
         settingsClick = false;
         backClick = false;
-        
+
         Time.timeScale = 1f;
         StartCoroutine(WaitForSceneLoad());
-        
+
     }
 
     public void Settings()
@@ -89,7 +89,7 @@ public class MainMenu : MonoBehaviour
 
         settingsClick = true;
         backClick = false;
-        
+
         if (transform.position != cameraRotFinal)
         {
             transform.position = Vector3.Lerp(transform.position, cameraPosFinal, 0.05f);
@@ -111,7 +111,7 @@ public class MainMenu : MonoBehaviour
         if (transform.position != cameraRotInicial)
         {
             transform.position = Vector3.Lerp(transform.position, cameraPosInicial, 0.05f);
-           transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, cameraRotInicial, 0.05f);
+            transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, cameraRotInicial, 0.05f);
         }
 
     }
@@ -137,8 +137,9 @@ public class MainMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("Loading");
-        
+
     }
+    
 }
 
 
