@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     //public Animator animator;
     public GameObject FadeOut;
+   
     
 
     #region Pause
@@ -110,7 +111,7 @@ public class MainMenu : MonoBehaviour
         if (transform.position != cameraRotInicial)
         {
             transform.position = Vector3.Lerp(transform.position, cameraPosInicial, 0.05f);
-            transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, cameraRotInicial, 0.05f);
+           transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, cameraRotInicial, 0.05f);
         }
 
     }
