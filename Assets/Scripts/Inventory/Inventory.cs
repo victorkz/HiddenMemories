@@ -13,19 +13,22 @@ public class Inventory : MonoBehaviour
         {
             Debug.LogWarning("More than one instance of inventory found");
             return;
-
         }
+
         instance = this;
     }
     #endregion
 
-
     public delegate void OnItemChanged();
-
     public OnItemChanged onItemChangedCallBack;
-    public int space = 4;
+
+    public int space;
+
     //Lista publica de items
     public List<Item> items = new List<Item>();
+
+    public Item combineItem1;
+    public Item combineItem2;
 
     public bool Add(Item item)
     {
@@ -44,7 +47,6 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-
     public void Remove(Item item)
     {
         items.Remove(item);
@@ -52,5 +54,32 @@ public class Inventory : MonoBehaviour
         if (onItemChangedCallBack != null)
             onItemChangedCallBack.Invoke();
     }
+
+    public void CombineItems(Item item)
+    {
+        if (combineItem1 == null)
+            combineItem1 = item;
+        else if (combineItem2 == null)
+            combineItem2 = item;
+
+        if (onItemChangedCallBack != null)
+            onItemChangedCallBack.Invoke();
+
+    }
+
+    //Teste
+    public virtual void UseItem(Item item)
+    {
+        //usa o item algo ocorre
+
+        Debug.Log("Habilita " + item.name);
+
+    }
+
+    public virtual void CombinaItems()
+    {
+
+    }
+
 }
 

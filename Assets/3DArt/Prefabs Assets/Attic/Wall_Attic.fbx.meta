@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 510b54e703800f2459b449fd3a29700e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: pPlane3
+    100002: suporte
+    100004: Suporte1
+    100006: Suporte2
+    100008: Teto
+    100010: Wall
+    100012: Wall 1
+    100014: //RootNode
+    100016: Wall_Support11
+    100018: Wall_Support17
+    100020: Wood_1
+    100022: Wood_2
+    100024: Wood_3
+    100026: Wood_4
+    400000: pPlane3
+    400002: suporte
+    400004: Suporte1
+    400006: Suporte2
+    400008: Teto
+    400010: Wall
+    400012: Wall 1
+    400014: //RootNode
+    400016: Wall_Support11
+    400018: Wall_Support17
+    400020: Wood_1
+    400022: Wood_2
+    400024: Wood_3
+    400026: Wood_4
+    2100000: Wood_Pillar
+    2100002: WoodWallTile
+    2100004: WoodRoof
+    2100006: Roof_Wood
+    2300000: pPlane3
+    2300002: suporte
+    2300004: Suporte1
+    2300006: Suporte2
+    2300008: Wall 1
+    2300010: Wall_Support11
+    2300012: Wall_Support17
+    2300014: Wood_1
+    2300016: Wood_2
+    2300018: Wood_3
+    2300020: Wood_4
+    3300000: pPlane3
+    3300002: suporte
+    3300004: Suporte1
+    3300006: Suporte2
+    3300008: Wall 1
+    3300010: Wall_Support11
+    3300012: Wall_Support17
+    3300014: Wood_1
+    3300016: Wood_2
+    3300018: Wood_3
+    3300020: Wood_4
+    4300000: Suporte1
+    4300002: Suporte2
+    4300004: Wall
+    4300006: pPlane3
+    4300008: Wall_Support11
+    4300010: Wall_Support17
+    4300012: suporte
+    4300014: Wood_1
+    4300016: Wood_2
+    4300018: Wood_3
+    4300020: Wood_4
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Wood
+    second: {fileID: 2100000, guid: 02388513269d24345b682f072e4bd716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodRoof
+    second: {fileID: 2100000, guid: ff6f77d7c4965ae43b417f49beac40f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodWallTile
+    second: {fileID: 2100000, guid: 5f9240140a3a90e46ad73432ff35b3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Pillar
+    second: {fileID: 2100000, guid: b600766cbbaf2a54e9cf72a7276e0263, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,11 +15,11 @@ public class ItemPickup : Interactable
 
     void PickUp()
     {
-        print("picking up: " + item.name);
         bool wasPickedUp = Inventory.instance.Add(item);
 
         if (wasPickedUp)
         {
+            print("picking up: " + item.name);
             Destroy(gameObject);
         }
     }

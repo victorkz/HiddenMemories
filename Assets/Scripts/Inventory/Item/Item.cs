@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject
 {
     //nome do objeto
@@ -14,11 +14,18 @@ public class Item : ScriptableObject
     //se ouver item de combinar ele se torna:
     public Item becomeItem = null;
 
+    public bool equipmentItem;
+
     public virtual void Use()
     {
         //usa o item algo ocorre
 
         Debug.Log("Habilita " + name);
+
+    }
+
+    public virtual void CombinaItems()
+    {
 
     }
 

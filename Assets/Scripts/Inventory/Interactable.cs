@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-
     public float radius = 3f;
 
     bool isFocus = false;//personagem interagiu com o objeto
+
     bool hasInteract = false;
+
     Transform player;
 
     public virtual void Interact()
     {
-
-
+        //método vai ser sobreescrito
     }
 
     private void Update()
