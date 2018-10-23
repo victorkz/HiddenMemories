@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 11f0f3b1cc029f543adb11a26bc59745
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Batente
+    100002: //RootNode
+    100004: Dobradica1
+    100006: Dobradica2
+    100008: Door
+    100010: House1_Escada
+    100012: House1_Faixada
+    100014: House1_Faixada_Varanda_dir
+    100016: House1_Faixada_Varanda_esq
+    100018: House1_Teto
+    100020: House1_Varanda_Floor
+    100022: House_1_Floor_Windows_dir
+    100024: House_1_Floor_Windows_esq
+    100026: House_1Floor
+    100028: House_2_Floor_Windows_dir
+    100030: House_2_Floor_Windows_esq
+    100032: House_2Floor
+    100034: House_3_Floor_Windows_dir
+    100036: House_3_Floor_Windows_esq
+    100038: House_3Floor
+    100040: House_Pilares_dir
+    100042: House_Pilares_esq
+    100044: Macaneta1
+    100046: Macaneta2
+    100048: Moldura
+    100050: Moldura 1
+    100052: Moldura 10
+    100054: Moldura 11
+    100056: Moldura 12
+    100058: Moldura 13
+    100060: Moldura 2
+    100062: Moldura 3
+    100064: Moldura 4
+    100066: Moldura 5
+    100068: Moldura 6
+    100070: Moldura 7
+    100072: Moldura 8
+    100074: Moldura 9
+    100076: Porta
+    100078: VarangaPeca3_dir
+    100080: VarangaPeca3_esq
+    100082: Vidro
+    100084: Vidro 1
+    100086: Vidro 10
+    100088: Vidro 11
+    100090: Vidro 12
+    100092: Vidro 13
+    100094: Vidro 2
+    100096: Vidro 3
+    100098: Vidro 4
+    100100: Vidro 5
+    100102: Vidro 6
+    100104: Vidro 7
+    100106: Vidro 8
+    100108: Vidro 9
+    100110: vidro_Wall0_windows
+    100112: vidro_Wall0_windows 1
+    100114: vidro_Wall0_windows 10
+    100116: vidro_Wall0_windows 11
+    100118: vidro_Wall0_windows 2
+    100120: vidro_Wall0_windows 3
+    100122: vidro_Wall0_windows 4
+    100124: vidro_Wall0_windows 5
+    100126: vidro_Wall0_windows 6
+    100128: vidro_Wall0_windows 7
+    100130: vidro_Wall0_windows 8
+    100132: vidro_Wall0_windows 9
+    100134: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    100136: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 1
+    100138: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 10
+    100140: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 11
+    100142: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 2
+    100144: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 3
+    100146: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 4
+    100148: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 5
+    100150: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 6
+    100152: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 7
+    100154: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 8
+    100156: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 9
+    100158: vidro_Wall1_Wwindows
+    100160: vidro_Wall1_Wwindows 1
+    100162: vidro_Wall2_Wwindows
+    100164: vidro_Wall2_Wwindows 1
+    100166: vidro_Wall3_Wwindows
+    100168: vidro_Wall3_Wwindows 1
+    100170: vidro_Wall4_Wwindows
+    100172: vidro_Wall4_Wwindows 1
+    100174: vidro_Wall5__Wwindows
+    100176: vidro_Wall5__Wwindows 1
+    100178: vidro_Wall6_Wwindows
+    100180: vidro_Wall6_Wwindows 1
+    100182: Window
+    100184: Window 1
+    400000: Batente
+    400002: //RootNode
+    400004: Dobradica1
+    400006: Dobradica2
+    400008: Door
+    400010: House1_Escada
+    400012: House1_Faixada
+    400014: House1_Faixada_Varanda_dir
+    400016: House1_Faixada_Varanda_esq
+    400018: House1_Teto
+    400020: House1_Varanda_Floor
+    400022: House_1_Floor_Windows_dir
+    400024: House_1_Floor_Windows_esq
+    400026: House_1Floor
+    400028: House_2_Floor_Windows_dir
+    400030: House_2_Floor_Windows_esq
+    400032: House_2Floor
+    400034: House_3_Floor_Windows_dir
+    400036: House_3_Floor_Windows_esq
+    400038: House_3Floor
+    400040: House_Pilares_dir
+    400042: House_Pilares_esq
+    400044: Macaneta1
+    400046: Macaneta2
+    400048: Moldura
+    400050: Moldura 1
+    400052: Moldura 10
+    400054: Moldura 11
+    400056: Moldura 12
+    400058: Moldura 13
+    400060: Moldura 2
+    400062: Moldura 3
+    400064: Moldura 4
+    400066: Moldura 5
+    400068: Moldura 6
+    400070: Moldura 7
+    400072: Moldura 8
+    400074: Moldura 9
+    400076: Porta
+    400078: VarangaPeca3_dir
+    400080: VarangaPeca3_esq
+    400082: Vidro
+    400084: Vidro 1
+    400086: Vidro 10
+    400088: Vidro 11
+    400090: Vidro 12
+    400092: Vidro 13
+    400094: Vidro 2
+    400096: Vidro 3
+    400098: Vidro 4
+    400100: Vidro 5
+    400102: Vidro 6
+    400104: Vidro 7
+    400106: Vidro 8
+    400108: Vidro 9
+    400110: vidro_Wall0_windows
+    400112: vidro_Wall0_windows 1
+    400114: vidro_Wall0_windows 10
+    400116: vidro_Wall0_windows 11
+    400118: vidro_Wall0_windows 2
+    400120: vidro_Wall0_windows 3
+    400122: vidro_Wall0_windows 4
+    400124: vidro_Wall0_windows 5
+    400126: vidro_Wall0_windows 6
+    400128: vidro_Wall0_windows 7
+    400130: vidro_Wall0_windows 8
+    400132: vidro_Wall0_windows 9
+    400134: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    400136: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 1
+    400138: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 10
+    400140: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 11
+    400142: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 2
+    400144: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 3
+    400146: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 4
+    400148: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 5
+    400150: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 6
+    400152: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 7
+    400154: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 8
+    400156: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 9
+    400158: vidro_Wall1_Wwindows
+    400160: vidro_Wall1_Wwindows 1
+    400162: vidro_Wall2_Wwindows
+    400164: vidro_Wall2_Wwindows 1
+    400166: vidro_Wall3_Wwindows
+    400168: vidro_Wall3_Wwindows 1
+    400170: vidro_Wall4_Wwindows
+    400172: vidro_Wall4_Wwindows 1
+    400174: vidro_Wall5__Wwindows
+    400176: vidro_Wall5__Wwindows 1
+    400178: vidro_Wall6_Wwindows
+    400180: vidro_Wall6_Wwindows 1
+    400182: Window
+    400184: Window 1
+    2100000: Porta_mat
+    2100002: Wood_Wall
+    2100004: lambert1
+    2100006: Wood_Roof_tower
+    2100008: Roof_mat
+    2100010: Pillar_mat
+    2100012: Wood_Window_Mat
+    2100014: vidro_Glass_Mat
+    2100016: vidro_Tile_Mat
+    2100018: Corrimao_mat
+    2100020: Stair_mat
+    2100022: vidro_Windows_mat
+    2100024: vidro_Gloos_mat
+    2300000: Batente
+    2300002: Dobradica1
+    2300004: Dobradica2
+    2300006: House1_Escada
+    2300008: House1_Faixada
+    2300010: House1_Faixada_Varanda_dir
+    2300012: House1_Faixada_Varanda_esq
+    2300014: House1_Teto
+    2300016: House1_Varanda_Floor
+    2300018: House_1_Floor_Windows_dir
+    2300020: House_1_Floor_Windows_esq
+    2300022: House_1Floor
+    2300024: House_2Floor
+    2300026: House_3_Floor_Windows_dir
+    2300028: House_3_Floor_Windows_esq
+    2300030: House_3Floor
+    2300032: House_Pilares_dir
+    2300034: House_Pilares_esq
+    2300036: Macaneta1
+    2300038: Macaneta2
+    2300040: Moldura
+    2300042: Moldura 1
+    2300044: Moldura 10
+    2300046: Moldura 11
+    2300048: Moldura 12
+    2300050: Moldura 13
+    2300052: Moldura 2
+    2300054: Moldura 3
+    2300056: Moldura 4
+    2300058: Moldura 5
+    2300060: Moldura 6
+    2300062: Moldura 7
+    2300064: Moldura 8
+    2300066: Moldura 9
+    2300068: Porta
+    2300070: VarangaPeca3_dir
+    2300072: VarangaPeca3_esq
+    2300074: Vidro
+    2300076: Vidro 1
+    2300078: Vidro 10
+    2300080: Vidro 11
+    2300082: Vidro 12
+    2300084: Vidro 13
+    2300086: Vidro 2
+    2300088: Vidro 3
+    2300090: Vidro 4
+    2300092: Vidro 5
+    2300094: Vidro 6
+    2300096: Vidro 7
+    2300098: Vidro 8
+    2300100: Vidro 9
+    2300102: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    2300104: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 1
+    2300106: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 10
+    2300108: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 11
+    2300110: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 2
+    2300112: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 3
+    2300114: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 4
+    2300116: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 5
+    2300118: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 6
+    2300120: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 7
+    2300122: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 8
+    2300124: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 9
+    3300000: Batente
+    3300002: Dobradica1
+    3300004: Dobradica2
+    3300006: House1_Escada
+    3300008: House1_Faixada
+    3300010: House1_Faixada_Varanda_dir
+    3300012: House1_Faixada_Varanda_esq
+    3300014: House1_Teto
+    3300016: House1_Varanda_Floor
+    3300018: House_1_Floor_Windows_dir
+    3300020: House_1_Floor_Windows_esq
+    3300022: House_1Floor
+    3300024: House_2Floor
+    3300026: House_3_Floor_Windows_dir
+    3300028: House_3_Floor_Windows_esq
+    3300030: House_3Floor
+    3300032: House_Pilares_dir
+    3300034: House_Pilares_esq
+    3300036: Macaneta1
+    3300038: Macaneta2
+    3300040: Moldura
+    3300042: Moldura 1
+    3300044: Moldura 10
+    3300046: Moldura 11
+    3300048: Moldura 12
+    3300050: Moldura 13
+    3300052: Moldura 2
+    3300054: Moldura 3
+    3300056: Moldura 4
+    3300058: Moldura 5
+    3300060: Moldura 6
+    3300062: Moldura 7
+    3300064: Moldura 8
+    3300066: Moldura 9
+    3300068: Porta
+    3300070: VarangaPeca3_dir
+    3300072: VarangaPeca3_esq
+    3300074: Vidro
+    3300076: Vidro 1
+    3300078: Vidro 10
+    3300080: Vidro 11
+    3300082: Vidro 12
+    3300084: Vidro 13
+    3300086: Vidro 2
+    3300088: Vidro 3
+    3300090: Vidro 4
+    3300092: Vidro 5
+    3300094: Vidro 6
+    3300096: Vidro 7
+    3300098: Vidro 8
+    3300100: Vidro 9
+    3300102: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    3300104: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 1
+    3300106: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 10
+    3300108: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 11
+    3300110: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 2
+    3300112: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 3
+    3300114: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 4
+    3300116: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 5
+    3300118: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 6
+    3300120: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 7
+    3300122: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 8
+    3300124: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows 9
+    4300000: Porta
+    4300002: Macaneta1
+    4300004: Macaneta2
+    4300006: Batente
+    4300008: Dobradica1
+    4300010: Dobradica2
+    4300012: House_1Floor
+    4300014: House_2Floor
+    4300016: House_3Floor
+    4300018: House1_Teto
+    4300020: House_Pilares_esq
+    4300022: House_Pilares_dir
+    4300024: House_1_Floor_Windows_dir
+    4300026: House_1_Floor_Windows_esq
+    4300028: Vidro
+    4300030: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300032: Moldura
+    4300034: Vidro
+    4300036: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300038: Moldura
+    4300040: Vidro
+    4300042: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300044: Moldura
+    4300046: Vidro
+    4300048: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300050: Moldura
+    4300052: Vidro
+    4300054: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300056: Moldura
+    4300058: Vidro
+    4300060: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300062: Moldura
+    4300064: Vidro
+    4300066: Moldura
+    4300068: Vidro
+    4300070: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300072: Moldura
+    4300074: Vidro
+    4300076: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300078: Moldura
+    4300080: Vidro
+    4300082: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300084: Moldura
+    4300086: Vidro
+    4300088: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300090: Moldura
+    4300092: Vidro
+    4300094: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300096: Moldura
+    4300098: Vidro
+    4300100: vidro_Wall0_Wwindows_vidro_Wall0_Wwindows
+    4300102: Moldura
+    4300104: Vidro
+    4300106: Moldura
+    4300108: House_3_Floor_Windows_dir
+    4300110: House_3_Floor_Windows_esq
+    4300112: House1_Faixada_Varanda_dir
+    4300114: House1_Faixada_Varanda_esq
+    4300116: House1_Escada
+    4300118: House1_Faixada
+    4300120: VarangaPeca3_dir
+    4300122: VarangaPeca3_esq
+    4300124: House1_Varanda_Floor
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
