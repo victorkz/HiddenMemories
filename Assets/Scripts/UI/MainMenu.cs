@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     //public Animator animator;
     public GameObject FadeOut;
     
-    
+
 
     #region Pause
     PauseScript ps;
@@ -50,8 +50,10 @@ public class MainMenu : MonoBehaviour
 
         if (settingsClick == true)
         {
+           
+            
             DisableMenu();
-
+            
             Invoke("EnableSettings", 0.5f);
             Settings();
         }
@@ -135,11 +137,16 @@ public class MainMenu : MonoBehaviour
 
     private IEnumerator WaitForSceneLoad()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene("Loading");
 
     }
-    
+
+
+   
+
+  
+
 }
 
 
