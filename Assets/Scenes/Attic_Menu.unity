@@ -113,6 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1001 &6044174
 Prefab:
   m_ObjectHideFlags: 0
@@ -311,28 +312,81 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ff5cdbdd86c6e38499aad08e24cc6363, type: 2}
   m_IsPrefabParent: 0
+=======
+--- !u!1 &1451498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1451499}
+  m_Layer: 0
+  m_Name: Supports
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1451499
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.7064495, y: 7.305005, z: 25.608835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1960518776}
+  - {fileID: 1644448992}
+  - {fileID: 91922567}
+  - {fileID: 1462121862}
+  - {fileID: 719820248}
+  - {fileID: 1827765526}
+  - {fileID: 1585545717}
+  - {fileID: 2041614726}
+  - {fileID: 1010781696}
+  - {fileID: 1114506647}
+  - {fileID: 1727203757}
+  - {fileID: 595880874}
+  - {fileID: 840905985}
+  - {fileID: 134606569}
+  - {fileID: 18681513}
+  m_Father: {fileID: 1640190321}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &15119196 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 2038443130}
+--- !u!4 &18681513 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1675344033}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1001 &25141118
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1640190321}
     m_Modifications:
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.556
+      value: 2.5054493
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54155445
+      value: 6.0434504
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.805
+      value: 25.517836
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalRotation.y
@@ -348,7 +402,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 7
+=======
+      value: 5
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
       propertyPath: m_LocalScale.x
@@ -482,19 +540,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.99
+      value: -6.767
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.83
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 5.214
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -502,11 +560,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -514,7 +572,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 43
+=======
+      value: 3
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -531,6 +593,14 @@ Prefab:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
@@ -556,15 +626,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76651744}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.667999, y: 2.7498333, z: -8.39709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.0890007, y: 2.0298333, z: -2.6830897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1331614055}
   - {fileID: 780674790}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 24
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 1
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &91922567 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1756931125}
+--- !u!4 &94866648 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 147027489}
 --- !u!1001 &121749714
 Prefab:
   m_ObjectHideFlags: 0
@@ -623,6 +706,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_PrefabInternal: {fileID: 121749714}
+--- !u!4 &134606569 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1284427118}
 --- !u!1001 &142121071
 Prefab:
   m_ObjectHideFlags: 0
@@ -760,23 +847,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.982
+      value: -4.87261
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.716
+      value: 3.9494472
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -792,7 +879,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 55
+=======
+      value: 7
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -934,23 +1025,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.726
+      value: -9.128611
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7160001
+      value: 3.9494472
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -966,7 +1057,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 54
+=======
+      value: 6
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -1054,23 +1149,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.726
+      value: -9.128611
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.209
+      value: 0.45644712
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1086,7 +1181,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 53
+=======
+      value: 5
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -1100,19 +1199,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.99
+      value: -6.767
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.834
+      value: 2.114
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.13
+      value: 1.5840001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1120,11 +1219,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1132,7 +1231,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 9
+=======
+      value: 10
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -1149,6 +1252,14 @@ Prefab:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
@@ -1183,24 +1294,28 @@ Transform:
   m_Father: {fileID: 1837277681}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &239913437 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 219369252}
 --- !u!1001 &252362098
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.06
+      value: 6.3029995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.834
+      value: 2.114
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.13
+      value: 1.5840001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1208,11 +1323,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1220,7 +1335,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 48
+=======
+      value: 8
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -1241,6 +1360,14 @@ Prefab:
     - target: {fileID: 2300000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_CastShadows
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
@@ -1311,6 +1438,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &305630529 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 1315906645}
+--- !u!1 &347438214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 347438215}
+  m_Layer: 0
+  m_Name: WoodBlocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &347438215
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347438214}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.80406, y: 9.8913965, z: 26.657389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 15119196}
+  - {fileID: 305630529}
+  - {fileID: 678513846}
+  - {fileID: 638085640}
+  - {fileID: 2071467396}
+  - {fileID: 239913437}
+  - {fileID: 739020513}
+  - {fileID: 94866648}
+  m_Father: {fileID: 1640190321}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &352429448
 Prefab:
   m_ObjectHideFlags: 0
@@ -1470,7 +1637,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: f22ba6ff84f4d0f4b843f1e80d73ce94, type: 2}
+  - {fileID: 2100000, guid: 6ec3315549cc679428467f60d4cbc119, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1503,13 +1670,18 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358804398}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.730824, y: -0.54155445, z: 2.303667}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -2.730824, y: -0.54155445, z: -34.75}
   m_LocalScale: {x: 6.702895, y: 1, z: 2.7445621}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &372063108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,14 +1703,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 372063108}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 13.959999, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -2.797001, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 69437842}
   - {fileID: 1492247207}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 32
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 9
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &439932615
 Prefab:
@@ -1669,23 +1846,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.419
+      value: -2.3380003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9743
+      value: 3.2542999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.287
+      value: 3.4270003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1764,6 +1941,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_PrefabInternal: {fileID: 474984618}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1001 &483594597
 Prefab:
   m_ObjectHideFlags: 0
@@ -1806,6 +1984,57 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ba90b1caf17ac947993ccc7cf225f1e, type: 2}
   m_IsPrefabParent: 0
+=======
+--- !u!1 &487050021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 487050022}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &487050022
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487050021}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.7064495, y: 7.305005, z: 25.608835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1738886107}
+  - {fileID: 76651745}
+  - {fileID: 582568710}
+  - {fileID: 1056718469}
+  - {fileID: 1820529856}
+  - {fileID: 1208964791}
+  - {fileID: 931244762}
+  - {fileID: 918323746}
+  - {fileID: 963881852}
+  - {fileID: 372063109}
+  - {fileID: 1248426686}
+  - {fileID: 775175835}
+  - {fileID: 1445931994}
+  - {fileID: 894737354}
+  - {fileID: 703969861}
+  - {fileID: 856948288}
+  - {fileID: 1321646192}
+  - {fileID: 1837277681}
+  - {fileID: 496767586}
+  - {fileID: 1120607395}
+  - {fileID: 916045859}
+  m_Father: {fileID: 1640190321}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &491735246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,14 +2130,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 496767585}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.490322, y: 2.7498333, z: -8.39709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.733322, y: 2.0298333, z: -2.6830897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1295055357}
   - {fileID: 843866075}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 20
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 18
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508642945
 GameObject:
@@ -1968,13 +2202,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 508642945}
-  m_LocalRotation: {x: 0.11668089, y: -0.09986095, z: 0.9252764, w: -0.34680974}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.36301103, y: -0.87642837, z: 0.31302062, w: -0.04598276}
+  m_LocalPosition: {x: -14.007, y: 4.7799997, z: 5.214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 174.038, y: -163.337, z: 41.967987}
+=======
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 148.983, y: -21.052979, z: 129.099}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &535103897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,31 +2273,36 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535103897}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.855, y: 1.376, z: -6.228}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.9020004, y: 0.656, z: -0.51399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 59
+=======
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 3
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &545249106
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.399
+      value: -2.3579998
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.83
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 5.214
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2065,11 +2310,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2077,7 +2322,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 45
+=======
+      value: 5
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -2094,6 +2343,14 @@ Prefab:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
@@ -2156,35 +2413,40 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 575314654}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.757, y: 0.72, z: -5.714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 60
+=======
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 4
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &582568709
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.852
+      value: -9.905
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54156
+      value: -1.26156
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.8541
+      value: -1.1401
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2200,7 +2462,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 25
+=======
+      value: 2
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_Name
@@ -2213,6 +2479,14 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
   m_PrefabInternal: {fileID: 582568709}
+--- !u!4 &595880874 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 2099486208}
+--- !u!4 &638085640 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 1170383775}
 --- !u!1001 &654979274
 Prefab:
   m_ObjectHideFlags: 0
@@ -2259,6 +2533,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 654979274}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1 &689202603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,28 +2675,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+--- !u!4 &678513846 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 1396126807}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1001 &703969860
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.512
+      value: -1.2449999
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54156
+      value: -1.26156
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.8541
+      value: -1.1401
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2437,7 +2718,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 15
+=======
+      value: 14
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2300004, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_CastShadows
@@ -2454,11 +2739,22 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
   m_PrefabInternal: {fileID: 703969860}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1 &771790497 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1579817860710128, guid: ff5cdbdd86c6e38499aad08e24cc6363,
     type: 2}
   m_PrefabInternal: {fileID: 6044174}
+=======
+--- !u!4 &719820248 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 2051280642}
+--- !u!4 &739020513 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 176393244}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &775175834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2480,14 +2776,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 775175834}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 7.340001, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -9.416999, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 439932616}
   - {fileID: 1289629235}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 34
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 11
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &780674789
 Prefab:
@@ -2535,6 +2836,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 780674789}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1001 &783367055
 Prefab:
   m_ObjectHideFlags: 0
@@ -2792,6 +3094,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05bdb052cea95a24eae491e7ddaf60b1, type: 2}
   m_IsPrefabParent: 0
+=======
+--- !u!4 &817987673 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+  m_PrefabInternal: {fileID: 976619868}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1001 &823776092
 Prefab:
   m_ObjectHideFlags: 0
@@ -2858,6 +3166,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_PrefabInternal: {fileID: 823776092}
+--- !u!4 &840905985 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 470074321}
 --- !u!1001 &843866074
 Prefab:
   m_ObjectHideFlags: 0
@@ -2912,6 +3224,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 843866074}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1 &857993741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,6 +3366,12 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+=======
+--- !u!4 &856948288 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
+  m_PrefabInternal: {fileID: 866286584}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &864955601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3132,19 +3451,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.28
+      value: 8.523001
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54156
+      value: -1.26156
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.36
+      value: 3.3540003
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3156,7 +3475,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3164,7 +3483,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 16
+=======
+      value: 15
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3182,6 +3505,14 @@ Prefab:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6c97005320cce44997398a8f47cc8a2, type: 3}
   m_IsPrefabParent: 0
@@ -3190,19 +3521,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1640190321}
     m_Modifications:
     - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.368
+      value: 2.3174496
       objectReference: {fileID: 0}
     - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.765
+      value: 7.3500047
       objectReference: {fileID: 0}
     - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.8
+      value: 25.522835
       objectReference: {fileID: 0}
     - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3228,27 +3559,39 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 208.10599
       objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &894737354 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
+  m_PrefabInternal: {fileID: 1012470297}
 --- !u!1001 &905657196
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.79
+      value: 2.033001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.834
+      value: 2.114
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.13
+      value: 1.5840001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3256,11 +3599,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3268,7 +3611,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 46
+=======
+      value: 6
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -3286,6 +3633,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
   m_IsPrefabParent: 0
@@ -3294,19 +3649,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.24
+      value: 8.483
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.501
+      value: 3.781
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.042
+      value: 5.756
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3314,11 +3669,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3326,7 +3681,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 41
+=======
+      value: 1
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -3339,6 +3698,40 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &912580295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 912580296}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912580296
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912580295}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.7064495, y: 7.305005, z: 25.608835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1066472970}
+  - {fileID: 1232861589}
+  - {fileID: 1303105127}
+  - {fileID: 535103899}
+  - {fileID: 575314656}
+  - {fileID: 508642947}
+  m_Father: {fileID: 1640190321}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &916045858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,14 +3753,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 916045858}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.98, y: 2.7498333, z: -8.39709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.22299957, y: 2.0298333, z: -2.6830897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 823776093}
   - {fileID: 150333126}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 22
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 20
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917010356 stripped
 GameObject:
@@ -3395,14 +3793,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 918323745}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 18.33, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 1.573, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1208320721}
   - {fileID: 1349711439}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 30
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 7
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &931244761
 GameObject:
@@ -3425,14 +3828,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 931244761}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 20.53, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 3.7730007, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 474984619}
   - {fileID: 352429449}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 29
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 6
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &933060788
 GameObject:
@@ -3455,16 +3863,21 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 933060788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.58534, y: 9.177959, z: -4.2142553}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.534788, y: 15.762964, z: 27.108582}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1006483888}
   - {fileID: 27455817}
   - {fileID: 1057118394}
   - {fileID: 142121072}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 36
+=======
+  m_Father: {fileID: 1640190321}
+  m_RootOrder: 3
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963881851
 GameObject:
@@ -3487,15 +3900,66 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 963881851}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 16.11, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -0.64699936, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 121749715}
   - {fileID: 2099519424}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 31
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 8
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!1001 &976619868
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1640190321}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.6994495
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.335005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.322836
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ec13fb482370d0d4899c7bcaa97b5d62, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &976779458
 Prefab:
   m_ObjectHideFlags: 0
@@ -3592,28 +4056,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b6ee4212cecab8b4b977c2484ff0bb6f, type: 3}
   m_PrefabInternal: {fileID: 1006483887}
+--- !u!4 &1010781696 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 252362098}
 --- !u!1001 &1012470297
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.7977
+      value: -10.9593
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54156
+      value: -1.26156
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.46
+      value: 3.2540002
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3621,7 +4089,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3629,7 +4097,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 14
+=======
+      value: 13
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_Name
@@ -3638,6 +4110,14 @@ Prefab:
     - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34afd8f2029c56d44b5f67afb63a27cf, type: 3}
@@ -3663,14 +4143,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056718468}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.32, y: 2.7498333, z: -8.39709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.437, y: 2.0298333, z: -2.6830897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 450850056}
   - {fileID: 1524292852}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 26
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 3
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1057118393
 Prefab:
@@ -3842,6 +4327,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1066472968}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_LocalRotation: {x: 0.4223833, y: -0.35923064, z: -0.4503857, w: 0.6997846}
   m_LocalPosition: {x: 17.791, y: 1.349, z: -6.129}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3849,6 +4335,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 164.48, y: 113.557, z: 104.269}
+=======
+  m_LocalRotation: {x: 0.46744716, y: -0.30082348, z: -0.4186982, w: 0.7181158}
+  m_LocalPosition: {x: 0.74300003, y: 0.78, z: -0.035999775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 155.2, y: 114.884995, z: 103.529}
+--- !u!4 &1114506647 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1145711482}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1 &1120607394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,12 +4369,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1120607394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.13, y: 2.7498333, z: -8.39709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.3729992, y: 2.0298333, z: -2.6830897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 354963573}
   - {fileID: 1478372151}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3922,25 +4422,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 61
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 19
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1145711482
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.06
+      value: 6.3029995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.83
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 5.214
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3948,11 +4452,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3960,7 +4464,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 49
+=======
+      value: 9
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -3978,6 +4486,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
   m_IsPrefabParent: 0
@@ -3986,23 +4502,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.726
+      value: -9.128611
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.209
+      value: 0.45644712
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4018,7 +4534,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 51
+=======
+      value: 3
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -4164,14 +4684,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1208964790}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 22.75, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 5.993, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1061154625}
   - {fileID: 1539896812}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 28
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 5
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1216419434
 GameObject:
@@ -4263,11 +4788,19 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1232861587}
   m_LocalRotation: {x: -0.16102035, y: 0.3184383, z: -0.623214, w: 0.6958979}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_LocalPosition: {x: 13.789, y: 2.371, z: -8.364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 57
+=======
+  m_LocalPosition: {x: -2.955, y: 1.043, z: -2.8019996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 1
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 170.049, y: 220.824, z: 100.019}
 --- !u!1 &1248426685
 GameObject:
@@ -4290,37 +4823,42 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1248426685}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 11.74, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -5.017, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1709436823}
   - {fileID: 976779459}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 33
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 10
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &1284427118
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.744
+      value: 1.9869995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9743
+      value: 3.2542999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.287
+      value: 3.4270003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4336,7 +4874,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 37
+=======
+      value: 13
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -4519,31 +5061,36 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1303105125}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.880543, y: 1.373, z: -6.511}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1235428, y: 0.653, z: -0.79699993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 58
+=======
+  m_Father: {fileID: 912580296}
+  m_RootOrder: 2
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1315906645
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.956
+      value: 1.1013889
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.644
+      value: 2.0214472
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4563,7 +5110,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 39
+=======
+      value: 1
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -4650,6 +5201,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320339299}
   m_Mesh: {fileID: 4300012, guid: 510b54e703800f2459b449fd3a29700e, type: 3}
+--- !u!4 &1321646192 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
+  m_PrefabInternal: {fileID: 1683893495}
 --- !u!1001 &1331614054
 Prefab:
   m_ObjectHideFlags: 0
@@ -4786,23 +5341,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.982
+      value: -4.87261
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.209
+      value: 0.45644712
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4818,7 +5373,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 50
+=======
+      value: 2
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -4929,23 +5488,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.982
+      value: -4.87261
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.209
+      value: 0.45644712
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4961,7 +5520,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 52
+=======
+      value: 4
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_Name
@@ -4991,15 +5554,24 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1445931993}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 9.56, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -7.1969995, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1516285064}
   - {fileID: 2005591392}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 35
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 12
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!4 &1462121862 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 74768268}
 --- !u!1001 &1478372150
 Prefab:
   m_ObjectHideFlags: 0
@@ -5054,6 +5626,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 1478372150}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!1 &1481576180
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,6 +5655,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1001 &1492247206
 Prefab:
   m_ObjectHideFlags: 0
@@ -5128,12 +5703,19 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 1492247206}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
 --- !u!114 &1515301871 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114692476092152398, guid: 05bdb052cea95a24eae491e7ddaf60b1,
     type: 2}
   m_PrefabInternal: {fileID: 800511886}
   m_Script: {fileID: 11500000, guid: 588f2b34a464e5d47818ed1d32744a40, type: 3}
+=======
+--- !u!4 &1505276400 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400180, guid: f5b161f6d8a7cbc4d959a7f134424ff6, type: 3}
+  m_PrefabInternal: {fileID: 888961803}
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
 --- !u!1001 &1516285063
 Prefab:
   m_ObjectHideFlags: 0
@@ -5358,24 +5940,28 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559753257}
   m_Mesh: {fileID: 4300000, guid: 510b54e703800f2459b449fd3a29700e, type: 3}
+--- !u!4 &1585545717 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 905657196}
 --- !u!1001 &1594108247
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.79
+      value: 2.033001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.83
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 5.214
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5383,11 +5969,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5395,7 +5981,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 47
+=======
+      value: 7
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -5413,9 +6003,57 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1640190320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1640190321}
+  m_Layer: 0
+  m_Name: OldAttic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640190321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1640190320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.5, y: -6.585005, z: -31.322836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 912580296}
+  - {fileID: 487050022}
+  - {fileID: 1451499}
+  - {fileID: 933060789}
+  - {fileID: 347438215}
+  - {fileID: 2032590011}
+  - {fileID: 1505276400}
+  - {fileID: 817987673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1644448992 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 908278583}
 --- !u!1001 &1673543897
 Prefab:
   m_ObjectHideFlags: 0
@@ -5487,23 +6125,23 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.997
+      value: -6.76
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9743
+      value: 3.2542999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.287
+      value: 3.4270003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5519,7 +6157,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 38
+=======
+      value: 14
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -5537,19 +6179,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.267
+      value: 8.51
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5388
+      value: 0.8188
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.36
+      value: 3.3540003
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5561,7 +6203,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5569,11 +6211,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 17
+=======
+      value: 16
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa5ddebd3d0db5c499bb20b6b9297416, type: 3}
@@ -5761,28 +6415,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_PrefabInternal: {fileID: 1709436822}
+--- !u!4 &1727203757 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 222109833}
 --- !u!1001 &1738886106
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 487050022}
     m_Modifications:
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.2
+      value: -5.557
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54156
+      value: -1.26156
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.8541
+      value: -1.1401
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5798,7 +6456,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 23
+=======
+      value: 0
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: b4e57a40d5de7f541aa4fbb4d4067ea5, type: 3}
       propertyPath: m_Name
@@ -5816,19 +6478,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.846
+      value: -10.910999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.501
+      value: 3.781
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.042
+      value: 5.756
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5836,11 +6498,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5848,7 +6510,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 42
+=======
+      value: 2
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -5866,19 +6532,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.143
+      value: 8.386
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.728
+      value: 4.0080004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.626
+      value: 1.0880003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5898,7 +6564,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 40
+=======
+      value: 0
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -5932,14 +6602,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1820529855}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 24.935, y: 2.7498, z: 3.5771}
+  m_LocalRotation: {x: 0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 8.1779995, y: 2.0298, z: 9.2911005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1184960098}
   - {fileID: 654979275}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 27
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 4
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &1822790390
 Prefab:
@@ -6007,6 +6682,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75deb9ce6c5b2b64c8c8d02f63b7aed8, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &1827765526 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 545249106}
 --- !u!1 &1837277680
 GameObject:
   m_ObjectHideFlags: 0
@@ -6028,8 +6707,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400014, guid: 510b54e703800f2459b449fd3a29700e, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1837277680}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.058, y: -0.2989, z: -2.4257}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.3010006, y: -1.0189, z: 3.2883003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1320339300}
@@ -6039,8 +6718,13 @@ Transform:
   - {fileID: 142159887}
   - {fileID: 172262772}
   - {fileID: 2000064239}
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
   m_Father: {fileID: 0}
   m_RootOrder: 18
+=======
+  m_Father: {fileID: 487050022}
+  m_RootOrder: 17
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1841656748
 GameObject:
@@ -6190,6 +6874,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1888259536}
   m_Mesh: {fileID: 4300014, guid: 510b54e703800f2459b449fd3a29700e, type: 3}
+--- !u!4 &1960518776 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1816465134}
 --- !u!1 &2000064238
 GameObject:
   m_ObjectHideFlags: 0
@@ -6356,28 +7044,32 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 323c22a49770b5740916bb29879eb816, type: 3}
   m_PrefabInternal: {fileID: 2005591391}
+--- !u!4 &2032590011 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400014, guid: 0448eb4e6b0bcdf4ea63e0edb8dd8107, type: 3}
+  m_PrefabInternal: {fileID: 25141118}
 --- !u!1001 &2038443130
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 347438215}
     m_Modifications:
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.259031
+      value: -0.59557915
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.175
+      value: 0.8686085
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.209
+      value: 0.45644712
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -6393,29 +7085,37 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 10
+=======
+      value: 0
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &2041614726 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+  m_PrefabInternal: {fileID: 1594108247}
 --- !u!1001 &2051280642
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.399
+      value: -2.3579998
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.834
+      value: 2.114
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.13
+      value: 1.5840001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6423,11 +7123,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6435,7 +7135,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/Scenes/Attic_Menu.unity
       value: 44
+=======
+      value: 4
+>>>>>>> 67c881e0bb97766c33b95622591bd27e7622cbbc:Assets/Scenes/Attic.unity
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_Name
@@ -6457,27 +7161,39 @@ Prefab:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &2071467396 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 310beb8bbc6e31244a3c5d715cb17a7c, type: 3}
+  m_PrefabInternal: {fileID: 1445176580}
 --- !u!1001 &2099486208
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1451499}
     m_Modifications:
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.748
+      value: -11.009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.776
+      value: 4.0559998
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.677
+      value: 1.0370002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7cc4c35e6bf6e64a9d18397f2cb5417, type: 3}
       propertyPath: m_LocalRotation.x
