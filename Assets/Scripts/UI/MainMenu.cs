@@ -137,7 +137,7 @@ public class MainMenu : MonoBehaviour
 
     private IEnumerator WaitForSceneLoad()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(8);
         SceneManager.LoadScene("Loading");
 
     }
